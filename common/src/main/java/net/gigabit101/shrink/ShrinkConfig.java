@@ -9,7 +9,7 @@ public class ShrinkConfig extends ConfigData
     public int shrinkingDeviceCapacity = 100000;
 
     @Comment("Shrinking Device cost")
-    public int shrinkingDeviceCost = 100;
+    public int shrinkingDeviceCost = 0;
 
     @Comment("Shrink Max Size")
     public double maxSize = 10.0D;
